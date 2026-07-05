@@ -1,16 +1,21 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main() {
     // FALTAN VARIABLES: ¡No olvides crear las variables para hambre, energía, etc.!
-
+    int salud=40;
+    int energia=20;
+    int hambre=80;
+    int felicidad=10;
+    string nombre="Nata";
+    
     int opcion;
     bool mascotaViva = true; 
 
     cout << "¡Bienvenido a tu Tamagotchi en C++!" << endl;
 
-    while (mascotaViva) {
+    while (mascotaViva==true) {
         
         // --- ARTE ASCII: ESTADO NORMAL ---
         // Usamos diagonales invertidas (\\) y otros símbolos para dibujar un gatito.
